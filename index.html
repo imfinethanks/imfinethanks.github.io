@@ -1,2 +1,32 @@
-ss://YWVzLTI1Ni1jZmI6NEJ5NWl1QDQ3LjI0MC44OS4xMjY6MzIzNjg=#SSRTOOL_Node%3A%E7%BE%8E%E5%9B%BD-%E4%BC%8A%E5%88%A9%E8%AF%BA%E4%BC%8A%E5%B7%9E
-ss://YWVzLTI1Ni1jZmI6NEJ5NWl1QDQ3LjI0MC45Mi4xOTM6MzIzNjg=#SSRTOOL_Node%3A%E9%A6%99%E6%B8%AF-Central+and+Western+District
+[
+  {
+    "server": "198.199.101.152",
+    "server_port": 8388,
+    "password": "u1rRWTssNv0p",
+    "method": "aes-256-cfb",
+    "remarks": "Example 1"
+  },
+  {
+    "server": "198.199.101.12",
+    "server_port": 8388,
+    "password": "u1rRWTssNv0p",
+    "method": "aes-256-cfb",
+    "plugin": "v2ray",
+    "plugin_opts": "host=www.example.com",
+    "remarks": "Example 2",
+    "route": "bypass-lan-china",
+    "remote_dns": "dns.google",
+    "ipv6": true,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": true,
+      "bypass": true,
+      "android_list": [
+        "com.eg.android.AlipayGphone",
+        "com.wudaokou.hippo",
+        "com.zhihu.android"
+      ]
+    },
+    "udpdns": false
+  },
+]
